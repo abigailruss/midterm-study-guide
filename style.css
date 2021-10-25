@@ -1,0 +1,63 @@
+/*     font-family: 'Lora', serif;
+
+    font-family: 'Montserrat', sans-serif; */
+#content{
+    margin: 0 auto;
+    width: 65%
+}
+.content-wrapper
+h4, h5{
+    font-family: 'Montserrat', Ariel, Helvetica sans-serif;
+    font-style: italic;
+
+}
+h1{
+    font-family: 'Montserrat', Ariel, Helvetica, sans-serif;
+}
+body{
+    font-family: 'Lora', serif;
+}
+.topper-image{
+    width:100%;
+    max-width: 1100px;
+    margin: auto;
+}
+.image-wrapper .caption, .fleximage .caption{
+    margin-top: 0;
+    color: grey;
+    font-family: 'Montserrat', Ariel, Helvetica, sans-serif;
+}
+.fleximage{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+.fleximage .image1 img{
+    flex-grow: 1;
+    width: 100%;
+}
+.fleximage .image2 img{
+    flex-grow: 1;
+    width: 100%;
+}
+@media only screen and (max-width:700px){
+    .fleximage{
+        flex-direction: column;
+    }
+}
+blockquote{
+    border-left: 10px solid lightpink;
+    padding-left: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: lightblue;
+    padding: 10px;
+    font-family: 'Montserrat', Ariel, Helvetica, sans-serif;
+}
+.quote{
+    font-size: 30px;
+}
